@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_status"
+        android:icon="@drawable/camera"
+        android:title="Kamera"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/search"
+        android:title="Pencarian"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_grub"
+        android:title="Grub Baru"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_siaran"
+        android:title="Siaran Baru"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_perangkat"
+        android:title="Perangkat Tertaut"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_pesan"
+        android:title="Pesan Berbintang"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_pengaturan"
+        android:title="Setelan"
+        app:showAsAction="never"/>
+</menu>
